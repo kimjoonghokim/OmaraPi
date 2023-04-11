@@ -53,7 +53,7 @@ port = 0
 server_sock.bind(("", port))
 server_sock.listen(1)
 print("listening on port 0")
-bluetooth.advertise_service(server_sock, "FooBar Service", "1e0ca4ea-299d-4335-93eb-27fcfe7fa848")
+bluetooth.advertise_service(server_sock, "FooBar Service", "00001101-0000-1000-8000-00805F9B34FB")
 client_sock, address = server_sock.accept()
 print("Accepted connection from ", address)
 isConnected = True
