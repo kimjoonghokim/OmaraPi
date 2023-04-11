@@ -41,10 +41,10 @@ def findItem(item):
 # addItem: takes in string representing item name, writes the item to the RFID tag
 def addItem(item):
    
-        print("Called addItem")
-        print("Now place your tag to write")
-        reader.write(item)
-        print("Written")
+    print("Called addItem")
+    print("Now place your tag to write")
+    reader.write(item)
+    print("Written")
         
 
 
